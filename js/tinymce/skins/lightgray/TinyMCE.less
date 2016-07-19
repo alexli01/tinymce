@@ -55,6 +55,44 @@ div.@{prefix}-edit-area {
 .@{prefix}-fullscreen .@{prefix}-resizehandle {
 	display: none;
 }
+//D2L 
+.@{prefix}-i-arrowdown ~ .@{prefix}-caret {
+	display: none;
+}
+
+.@{prefix}-fullscreen {
+	.@{prefix}-toolbar-grp {
+		margin: 0.5rem;
+	}
+	.@{prefix}-toolbar {
+		.@{prefix}-btn-group:not(:first-child) {
+			padding-left: .25rem;
+			margin-left: .25rem;
+		}
+		.@{prefix}-btn-group.@{prefix}-last {
+			position: absolute;
+			right: 0;
+			border: none;
+		}
+		.@{prefix}-btn {
+			min-height: 1.5rem;
+		}
+	}
+}
+
+
+.@{prefix}-fullscreen > .@{prefix}-container-body {
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 1rem;
+	.@{prefix}-toolbar-grp {
+		position: relative;
+	}
+}
+
+
+
+
 
 // Charmap
 
